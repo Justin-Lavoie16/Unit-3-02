@@ -6,16 +6,15 @@ if (navigator.serviceWorker) {
 
 ;("use strict")
 
-function calculate() {
-  const length = parseInt(document.getElementById("pay").value)
-  const width = parseInt(document.getElementById("pay2").value)
+function calculateVolumeClicked () {
 
-  const area = length * width * 0.18
-  const perimeter = length * width * (1.0 - 0.18)
-  const TAX_RATE = 0.18
+  const length = parseFloat(document.getElementById("lengthpyramid").value)
+  const width = parseFloat(document.getElementById("widthpyramid").value)
+  const height = parseFloat(document.getElementById("heightpyramid").value)
 
-  document.getElementById("area").innerHTML =
-    "The governemnt will take: " + area + "$"
-  document.getElementById("perimeter").innerHTML =
-    "your pay will be: " + perimeter + "$"
+
+  const volume = (length * width * height) / 3
+
+  
+  document.getElementById('volume').innerHTML = 'Volume is: ' + volume.toFixed(2) + ' mm³.'
 }
