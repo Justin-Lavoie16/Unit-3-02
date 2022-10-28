@@ -42,24 +42,39 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
   </head>
- <title>Volume of a Pyramid, with a JS file</title>
+  <title>Volume of a Pyramid, with a JS file</title>
   <body>
     <script src="./js/script.js"></script>
     <h1>Volume of a Pyramid, with JS</h1>
-    <img src="./images/pyramid.svg" alt="pyramid" width="35%" height="auto">
+    <img src="./images/pyramid.svg" alt="pyramid" width="35%" height="auto" />
     <h2>Formulas</h2>
     <h3>V = (L x W x H) / 3</h3>
-    <p>
+    <p></p>
 
-      <form action="javascript:calculateVolumeClicked()">
-        <label for="fname">Length:</label>
-        <input type="number" step="any" id="lengthpyramid" placeholder="write here">&nbsp;mm<br><br>
-        <label for="lname">Width:</label>
-        <input type="number" step="any" id="widthpyramid" placeholder="write here">&nbsp;mm<br><br>
-        <label for="fname">Height:</label>
-        <input type="number" step="any" id="heightpyramid" placeholder="write here">&nbsp;mm<br><br>
-        <input type="submit" value="Calculate">
-      </form>
+    <form action="javascript:calculateVolumeClicked()">
+      <label for="fname">Length:</label>
+      <input
+        type="number"
+        step="any"
+        id="lengthpyramid"
+        placeholder="write here"
+      />&nbsp;mm<br /><br />
+      <label for="lname">Width:</label>
+      <input
+        type="number"
+        step="any"
+        id="widthpyramid"
+        placeholder="write here"
+      />&nbsp;mm<br /><br />
+      <label for="fname">Height:</label>
+      <input
+        type="number"
+        step="any"
+        id="heightpyramid"
+        placeholder="write here"
+      />&nbsp;mm<br /><br />
+      <input type="submit" value="Calculate" />
+    </form>
     <div id="answers">
       <div id="volume"></div>
     </div>
