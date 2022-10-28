@@ -1,20 +1,44 @@
 <mxfile host="65bd71144e">
     <diagram id="pIaEtrtLPv3HG8r1JEND" name="Page-1">
-        <mxGraphModel dx="690" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1074" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFAFA;" parent="1" vertex="1">
                     <mxGeometry x="80" y="80" width="400" height="300" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="Header" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="3" value="&lt;font color=&quot;#0f0f0f&quot;&gt;volume of pyramid with js&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFAFA;strokeColor=#0A0A0A;" parent="1" vertex="1">
                     <mxGeometry x="80" y="80" width="400" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=0;left=0;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="110" y="220" width="120" height="20" as="geometry"/>
+                <mxCell id="6" value="&lt;font color=&quot;#171717&quot;&gt;Calculate&lt;/font&gt;" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.button;dx=10;fillColor=#FFFAFA;strokeColor=#0A0A0A;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="310" width="100" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="Calculate" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.button;dx=10;" vertex="1" parent="1">
-                    <mxGeometry x="110" y="270" width="100" height="40" as="geometry"/>
+                <mxCell id="7" value="&lt;font color=&quot;#0a0a0a&quot;&gt;Formula&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#FFFAFA;strokeColor=#0F0F0F;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="120" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;font color=&quot;#1f1f1f&quot;&gt;enter height&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=#FFFAFA;strokeColor=none;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="190" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;font color=&quot;#080808&quot;&gt;enter length&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#FFFAFA;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="220" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;font color=&quot;#080808&quot;&gt;enter width&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=#FFFAFA;strokeColor=none;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="250" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="whiteSpace=wrap;html=1;fillColor=#FFFAFA;strokeWidth=1;strokeColor=#171717;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="190" width="110" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="whiteSpace=wrap;html=1;fillColor=#FFFAFA;strokeColor=#0D0D0D;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="220" width="110" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="whiteSpace=wrap;html=1;fillColor=#FFFAFA;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="250" width="110" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;font color=&quot;#171717&quot;&gt;Answers&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#FFFAFA;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="360" width="110" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="image&lt;br&gt;of pyramid" style="whiteSpace=wrap;html=1;fontColor=#0F0F0F;strokeColor=#0A0A0A;strokeWidth=1;fillColor=#FFFAFA;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="170" width="160" height="140" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
